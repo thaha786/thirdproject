@@ -1,0 +1,104 @@
+
+.face{
+  height: 250px;
+  width: 250px;
+  background-color:pink;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 15%;
+  position: relative;
+}
+.eyes{
+  display: flex;
+  justify-content: space-evenly;
+  position:absolute;
+  width: 250px;
+  margin-top: 25%;
+}
+#leye{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+
+}
+#lmeye{
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 25%; 
+  margin-left: 25%;
+  position: relative;
+}
+#reye{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+
+}
+#rmeye{
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 25%;
+  margin-left: 25%;
+  position: relative;
+}   
+.snout{
+  position:absolute;
+  margin:auto;
+  margin-top: 56%;
+  margin-left: 29%;
+  height:60px;
+  width: 110px;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 50px 50px 50px 50px;
+  display: flex;
+  justify-content:space-evenly;
+ 
+}
+#lnos{
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 15%;
+  margin-left:2%;
+}
+#rnos{
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 15%;
+  margin-left: 2%;
+}
+.ears{
+  display:flex;
+  justify-content: space-evenly;
+  position: absolute;
+  margin-top: -9%;
+  z-index: -1;
+  width: 250px;
+}
+#lear{
+  height: 80px;
+  width: 90px;
+  background-color: pink;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border:2px solid black;
+}
+#rear{
+  height: 80px;
+  width: 90px;
+  background-color: pink;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border: 2px solid black;
+}
